@@ -66,6 +66,7 @@ Linux中的文件格式：/home/用户名/123.txt
 
 在home目录下就会存在一个用户目录，每个用户都会有一个目录，和windows系统是一样的
 
+
 ![](./VMware%E5%92%8Clinux%E7%B3%BB%E7%BB%9F.assets/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202025-02-26%20205838.png)
 
 存在一个特例，超级用户root用户，在根目录下会有一个root文件，这个文件正常情况是没有权限打开的，root用户是没有限制的，可以任意操作任意文件和目录
@@ -201,7 +202,7 @@ tar -xzvf 档案包名.tar.gz -C 路径
 
 使用ln指令来创建链接,添加-s参数来创建软链接,
 
-``` 
+```
 ln -s 原文件 链接名称
 ```
 
@@ -308,7 +309,7 @@ cat是一个常用命令,用于查看一个文件
 gedit /etc/pam.d/gdm-autologin
 ```
 
-![](./VMware%E5%92%8Clinux%E7%B3%BB%E7%BB%9F.assets/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202025-03-06%20102912.png)
+![1744114764162](image/VMware和linux系统/1744114764162.png)
 
 找到"auto required pam_succeed_if.so user != root quiet_success"这一行,在前面加上#注释掉这行配置
 
@@ -319,7 +320,7 @@ gedit /etc/pam.d/gdm-autologin
 gedit /etc/pam.d/gdm-password
 ```
 
-![](./VMware%E5%92%8Clinux%E7%B3%BB%E7%BB%9F.assets/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202025-03-06%20103313.png)
+![1744114786048](image/VMware和linux系统/1744114786048.png)
 
 同样地,在"auth required pam_succeed_if.so user != root quiet_success"前加上#注释掉代码
 
@@ -338,7 +339,7 @@ gedit /etc/pam.d/gdm-password
 
 ls -l会显示文件作者和权限
 
-![](./VMware%E5%92%8Clinux%E7%B3%BB%E7%BB%9F.assets/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202025-03-07%20102435.png)
+![1744114798463](image/VMware和linux系统/1744114798463.png)
 
 ```
 第一个字符表示文件类型
@@ -379,104 +380,7 @@ chown -R 用户名 文件
 chown -R cetus 123.txt
 ```
 
-
-
-
-
-
-
-
-
 # 变量
-
-## 脚本
-
-### 可执行脚本
-
-脚本script,一种解释执行的程序
-
-Linux有三种常见的脚本
-
-```
-shell脚本 *.sh
-
-perl脚本 *.pl
-
-Python脚本 *.py
-```
-
-脚本从本质上是一个文本文件
-
-1.它是一个文本文件
-
-2.它具有可执行权限
-
-执行脚本./
-
-```
-./脚本文件
-```
-
-所有脚本都有对应的解释器
-
-```
-shell解释器位置/bin/sh
-perl脚本解释器:bin/perl
-python脚本解释器:/bin/python3
-```
-
-执行脚本时以下两种方式等价
-
-```
-/bin/python3 hello.py
-./hello.py
-```
-
-### shell脚本
-
-shell脚本是按shell语法写出来的脚本,是linux自带的脚本语言
-
-类似于windows系统下的dos批处理文件
-
-默认创建的shell脚本是没有执行权限的，需要手动添加-x权限
-
-第一个shell程序
-
-使用记事本编辑内容
-
-```
-#!/bin/sh
-echo "hello,wolrd"
-echo "bye"
-```
-
-保存后,在终端中添加x权限
-
-执行程序
-
-使用./或者详细的路径都是可以执行的
-
-```
-./文件名
-或
-/home/cetus/123.sh
-```
-
-执行时一定要加路径,不加路径是无法执行的
-
-要点:
-
-1.shell脚本中,第一行都是#!/bin/sh
-
-也就是井号#感叹号!再加上对应脚本类型的解释器位置
-
-### python脚本
-
-编辑一个python脚本
-
-第一行写上解释器路径,其他就是按照python的语法写
-
-运行前添加一个x权限，就可执行了
 
 ## 系统变量
 
@@ -590,6 +494,7 @@ $PATH的意思是把PATH重新取出来,重定义
 ## VMware虚拟机网络
 
 虚拟机中也是可以上网,正常虚拟机的火狐浏览器都是可以用的(如果外部环境可以上网的话)
+
 ### 前置准备
 
 #### 1.虚拟网络编辑器
@@ -604,7 +509,7 @@ $PATH的意思是把PATH重新取出来,重定义
 
 选择NAT类型
 
-![](./VMware%E5%92%8Clinux%E7%B3%BB%E7%BB%9F.assets/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202025-03-08%20225634.png)
+![img](./VMware%E5%92%8Clinux%E7%B3%BB%E7%BB%9F.assets/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202025-03-08%20225634.png)
 
 ### 虚拟机联网
 
@@ -657,15 +562,13 @@ apt install vsftpd
 sudo netstat -anop | grep vsftpd
 ```
 
-
-
 #### 二.配置ftp
 
 打开配置文件,配置文件在/etc目录下
 文件路径是/etc/vsftpd/vsftpd.conf
 使用vim编辑配置文件
 
-``` 
+```
 vim /etc/vsftpd.conf
 ```
 
@@ -686,8 +589,6 @@ anon_upload_enable=YES(文件上传权限)
 anon_root=文件l
 ```
 
-
-
 #### .启停服务
 
 ```
@@ -703,10 +604,6 @@ sudo service vsftpd reload
 sudo service vsftpd status
 ```
 
-
-
-
-
 ### SSH服务器
 
 先下载官方提供的ssh安装包,ssh是客户端,sshd是服务端
@@ -718,8 +615,6 @@ service sshd start
 配置文件位置
 /etc/ssh/sshd.conf
 ```
-
-
 
 ### Tomcat服务器
 
@@ -827,33 +722,141 @@ vim /tomcat/conf/server.xml
 cat tomcat/logs/Catalina.out
 ```
 
-#### 
-
-
-
-
-
 ### Redis服务器
-
-
-
-
-
-
-
-
-
-
 
 ### MySQL服务器
 
-
-
-
-
 # 代码
 
-## 调试程序GDB
+## 脚本
+
+### 可执行脚本
+
+脚本script,一种解释执行的程序
+
+Linux有三种常见的脚本
+
+```
+shell脚本 *.sh
+
+perl脚本 *.pl
+
+Python脚本 *.py
+```
+
+脚本从本质上是一个文本文件
+
+1.它是一个文本文件
+
+2.它具有可执行权限
+
+执行脚本./
+
+```
+./脚本文件
+```
+
+所有脚本都有对应的解释器
+
+```
+shell解释器位置/bin/sh
+perl脚本解释器:bin/perl
+python脚本解释器:/bin/python3
+```
+
+执行脚本时以下两种方式等价
+
+```
+/bin/python3 hello.py
+./hello.py
+```
+
+### shell脚本
+
+shell脚本是按shell语法写出来的脚本,是linux自带的脚本语言
+
+类似于windows系统下的dos批处理文件
+
+默认创建的shell脚本是没有执行权限的，需要手动添加-x权限
+
+第一个shell程序
+
+使用记事本编辑内容
+
+```
+#!/bin/sh
+echo "hello,wolrd"
+echo "bye"
+```
+
+保存后,在终端中添加x权限
+
+执行程序
+
+使用./或者详细的路径都是可以执行的
+
+```
+./文件名
+或
+/home/cetus/123.sh
+```
+
+执行时一定要加路径,不加路径是无法执行的
+
+要点:
+
+1.shell脚本中,第一行都是#!/bin/sh
+
+也就是井号#感叹号!再加上对应脚本类型的解释器位置
+
+### python脚本
+
+编辑一个python脚本
+
+第一行写上解释器路径,其他就是按照python的语法写
+
+运行前添加一个x权限，就可执行了
+
+### gcc编译
+
+使用gcc可以编译c语言脚本
+
+```Linux
+安装命令
+sudo apt install build-essential
+版本查看
+gcc --version
+```
+
+g++是特定的gcc组件，用来编译c++语言
+
+```
+sudo apt install g++
+```
+
+基本语法
+
+```
+gcc [options] [filenames]
+
+```
+
+![1743937533022](image/VMware和linux系统/1743937533022.png)
+
+一般编译指令
+
+```
+gcc hello.c -o hello
+./hello
+```
+
+直接生成可执行文件hello.out
+
+out后缀的文件是linux系统特有的文件类型,类似于windows下的bat和exe文件
+
+## 调试程序
+
+### GDB调试c/c++程序
 
 安装
 
@@ -861,7 +864,7 @@ cat tomcat/logs/Catalina.out
 apt install gdb
 ```
 
-### 调试指令
+#### 调试指令
 
 ```
 加载文件开始调试
@@ -918,7 +921,7 @@ ni和s效果相同
 (gdb)ni
 ```
 
-### 查看指令
+#### 查看指令
 
 ```
 layout加入tui模式，查看反汇编、寄存器信息
@@ -931,11 +934,9 @@ layout加入tui模式，查看反汇编、寄存器信息
 
 ```
 
+### EDB软件
 
-
-
-
-
+安装
 
 ## 文本编辑器vi
 
@@ -1018,8 +1019,6 @@ java -jar 文件名.jar
 
 使用run_java.sh模板
 
-
-
 # 进程
 
 程序program:是一个可执行的文件实体
@@ -1086,8 +1085,6 @@ kill -9 pid
 
 后台运行父进程关闭，子进程不会被关闭
 
-
-
 总结进程管理命令
 
 ```
@@ -1099,13 +1096,10 @@ kill -9 pid
 ctrl+c中止当前进程
 ```
 
-
-
-
-
 # 技巧
 
 ## 命令行技巧
+
 ### 自动补全
 
 在终端中输入命令行时,使用tab可以自动补全命令
@@ -1132,4 +1126,3 @@ apt search 软件包名称
 
 apt 
 ```
-
