@@ -18,22 +18,19 @@
 >
 > Linux系统安装：
 >
-> ![](.\image\PYTHON\image2.jpeg) 
->  
+> ![](.\image\PYTHON\image2.jpeg)
 >
 > 官网中找到下载指令，在终端中执行官网的下载指令，下载压缩包
 >
-> ![](.\image\PYTHON\image3.jpeg) 
->  
+> ![](.\image\PYTHON\image3.jpeg)
 >
-> ![](.\image\PYTHON\image4.jpeg) 
->  解压压缩包
+> ![](.\image\PYTHON\image4.jpeg)
+> 解压压缩包
 >
-> ![](.\image\PYTHON\image5.jpeg) 
->  选择安装路径源码编译
+> ![](.\image\PYTHON\image5.jpeg)
+> 选择安装路径源码编译
 >
-> ![](.\image\PYTHON\image6.jpeg) 
->  
+> ![](.\image\PYTHON\image6.jpeg)
 >
 > 为方便使用，可设置软链接
 >
@@ -93,8 +90,7 @@
 >
 > 字面量含义：代码中被写下的固定值包括六大数据类型
 >
-> ![](.\image\PYTHON\image12.jpeg) 
->  
+> ![](.\image\PYTHON\image12.jpeg)
 
 ![](.\image\PYTHON\image13.png)
 
@@ -118,12 +114,11 @@
 >
 > **单行注释**：以#开头，#右边写下文字
 >
-> ![](.\image\PYTHON\image17.jpeg) 
->  
+> ![](.\image\PYTHON\image17.jpeg)
 >
-> ![](.\image\PYTHON\image18.jpeg) 
->  ![](.\image\PYTHON\image19.png) 
->  **多行注释**：以一对（\"\"\"注释内容\"\"\"）三引号括起来的的内容
+> ![](.\image\PYTHON\image18.jpeg)
+> ![](.\image\PYTHON\image19.png)
+> **多行注释**：以一对（\"\"\"注释内容\"\"\"）三引号括起来的的内容
 
 # 变量
 
@@ -170,8 +165,7 @@
 >
 > 比如将字符串转换为整型浮点型，将整型转换为字符串常见的转换语句
 >
-> ![](.\image\PYTHON\image20.jpeg) 
->  
+> ![](.\image\PYTHON\image20.jpeg)
 >
 > 这三个语句都是有返回值的，可以直接用print去输出，也可以用变量储存返回值
 >
@@ -193,8 +187,7 @@
 >
 > 关键字不能用作标识符
 >
-> ![](.\image\PYTHON\image21.jpeg) 
->  
+> ![](.\image\PYTHON\image21.jpeg)
 >
 > 分区 基本概念 的第 13 页
 
@@ -228,16 +221,15 @@
 
 4. 引号嵌套
 
-> ![](.\image\PYTHON\image24.jpeg) 
->  ![](.\image\PYTHON\image25.jpeg) 
->  如果一个字符串中有引号
+> ![](.\image\PYTHON\image24.jpeg)
+> ![](.\image\PYTHON\image25.jpeg)
+> 如果一个字符串中有引号
 >
 > 二、字符串的拼接
 >
 > 如果有两个字符串，在字符串间用+号就可以拼接两个字符串
 >
-> ![](.\image\PYTHON\image26.jpeg) 
->  
+> ![](.\image\PYTHON\image26.jpeg)
 >
 > +无法实现多个类型的拼接，如整型+字符串就会报错
 >
@@ -249,8 +241,7 @@
 >
 > 在字符串内使用占位符号%，%后跟数据类型，如**字符串类型s、整型%d、浮点型%f**
 >
-> ![](.\image\PYTHON\image27.jpeg) 
->  
+> ![](.\image\PYTHON\image27.jpeg)
 >
 > **格式化精度控制：**
 
@@ -278,8 +269,7 @@
 
 > 代码input中写下的内容将会被输出在屏幕上
 >
-> ![](.\image\PYTHON\image32.jpeg) 
->  
+> ![](.\image\PYTHON\image32.jpeg)
 >
 > 无论输入什么数据，input获取的都是字符串类型
 
@@ -295,12 +285,11 @@
 >
 > print取消换行，若有多条print语句，在不需要换行的句子后加上end=''就可以实现换行操作
 >
-> ![](.\image\PYTHON\image33.jpeg) 
->  
+> ![](.\image\PYTHON\image33.jpeg)
 >
-> ![](.\image\PYTHON\image34.png) 
->  ![](.\image\PYTHON\image35.jpeg) 
->  制表符"\\t"
+> ![](.\image\PYTHON\image34.png)
+> ![](.\image\PYTHON\image35.jpeg)
+> 制表符"\\t"
 
 # 布尔类型和运算比较符
 
@@ -318,8 +307,7 @@
 >
 > 比较运算符用于比较真和假
 >
-> ![](.\image\PYTHON\image36.jpeg) 
->  
+> ![](.\image\PYTHON\image36.jpeg)
 >
 > 应该注意的是，单个等号代表赋值运算，两个等号才能表示相等判断
 
@@ -345,17 +333,13 @@
 
 ![](.\image\PYTHON\image43.jpeg)
 
-> ![](.\image\PYTHON\image44.jpeg) 
->  
-
 ##### 判断语句的嵌套
 
 > 2024年7月24日 16:29
 >
 > 嵌套判断就是有层次的判断
 >
-> ![](.\image\PYTHON\image45.jpeg) 
->  
+> ![](.\image\PYTHON\image45.jpeg)
 >
 > 此外，else的配对需要看缩进，else与缩进一致的if语句配对，如果有多个缩进一致的if语句，那么else与最近的if语句配对
 >
@@ -369,15 +353,13 @@
 >
 > ***循环内容***
 >
-> ![](.\image\PYTHON\image46.jpeg) 
->  
+> ![](.\image\PYTHON\image46.jpeg)
 >
 > 与判断语句一样，while循环种也有空格缩进二、while循环的嵌套使用
 >
 > 通过不同循环的嵌套，可以实现多层循环
 >
-> ![](.\image\PYTHON\image47.png) 
->  
+> ![](.\image\PYTHON\image47.png)
 
 ![](.\image\PYTHON\image48.jpeg)
 
@@ -398,13 +380,7 @@
 
 ![](.\image\PYTHON\image52.jpeg)![](.\image\PYTHON\image53.jpeg)
 
-> ![](.\image\PYTHON\image54.jpeg) 
->  
-
 ![](.\image\PYTHON\image55.jpeg)
-
-> ![](.\image\PYTHON\image56.jpeg) 
->  
 
 ### range循环
 
@@ -422,12 +398,6 @@
 
 ![](.\image\PYTHON\image59.jpeg)
 
-> ![](.\image\PYTHON\image60.jpeg) 
->  
->
-> ![](.\image\PYTHON\image61.jpeg) 
->  
-
 # 函数基础定义语法
 
 > 2024年7月28日 16:37
@@ -437,9 +407,6 @@
 > 一、函数的基本定义语法
 
 ![](.\image\PYTHON\image63.jpeg)
-
-> ![](.\image\PYTHON\image64.jpeg) 
->  
 
 #### 函数传入参数
 
@@ -461,8 +428,7 @@
 
 > 特殊返回值none
 >
-> ![](.\image\PYTHON\image69.jpeg) 
->  
+> ![](.\image\PYTHON\image69.jpeg)
 
 ![](.\image\PYTHON\image70.jpeg)
 
@@ -472,8 +438,7 @@
 >
 > pychram在函数中写下三引号后回车，会自动生成'传入参数'、'返回值'的注释摘要
 >
-> ![](.\image\PYTHON\image71.png) 
->  
+> ![](.\image\PYTHON\image71.png)
 
 ![](.\image\PYTHON\image72.jpeg)
 
@@ -485,8 +450,7 @@
 
 > 在同一作用域下，函数的调用无需区分定义的先后顺序例如下图代码是可以执行的，不会报错
 >
-> ![](.\image\PYTHON\image74.jpeg) 
->  
+> ![](.\image\PYTHON\image74.jpeg)
 
 ![](.\image\PYTHON\image75.jpeg)
 
@@ -500,8 +464,7 @@
 >
 > 一、局部变量与全局变量
 >
-> ![](.\image\PYTHON\image76.jpeg) 
->  
+> ![](.\image\PYTHON\image76.jpeg)
 
 ![](.\image\PYTHON\image77.jpeg)
 
@@ -513,8 +476,7 @@
 >
 > 如下图示例代码
 >
-> ![](.\image\PYTHON\image78.jpeg) 
->  
+> ![](.\image\PYTHON\image78.jpeg)
 
 # 多返回值
 
@@ -532,18 +494,15 @@
 
 > 二、关键字参数
 >
-> ![](.\image\PYTHON\image81.jpeg) 
->  
+> ![](.\image\PYTHON\image81.jpeg)
 >
 > 三、缺省参数（默认参数）
 >
-> ![](.\image\PYTHON\image82.jpeg) 
->  
+> ![](.\image\PYTHON\image82.jpeg)
 >
 > 四、不定长参数
 >
-> ![](.\image\PYTHON\image83.jpeg) 
->  
+> ![](.\image\PYTHON\image83.jpeg)
 
 ![](.\image\PYTHON\image84.jpeg)
 
@@ -565,23 +524,21 @@
 
 > 分区 函数进阶 的第 48 页
 
-##### 初识数据容器（类似c中的数组）
+# 初识数据容器（类似c中的数组）
 
 > 2024年7月28日 16:38
 >
-> ![](.\image\PYTHON\image89.png) 
->  
+> ![](.\image\PYTHON\image89.png)
 >
 > 分区 数据容器 的第 49 页
 
-###### 数据容器：列表（list）
+# 数据容器：列表（list）
 
 > 2024年8月3日 20:55
 >
 > 一、列表的定义语法
 >
-> ![](.\image\PYTHON\image90.jpeg) 
->  
+> ![](.\image\PYTHON\image90.jpeg)
 >
 > 列表可以一次性储存多种数据，即同一个列表可以混存数据，且可以嵌套
 
@@ -589,8 +546,7 @@
 
 > 二、列表的下标索引
 >
-> ![](.\image\PYTHON\image92.png) 
->  
+> ![](.\image\PYTHON\image92.png)
 >
 > 列表可以正取，也可以倒着取，正数和零取出来的是正的顺序，用负数取出来的加上倒着的顺序
 >
@@ -598,41 +554,35 @@
 >
 > 列表索引数字超出列表范围，会报错，比如一个只有三个元素的列表，是不能取到序号3的，只有序号0，1，2可取
 >
-> ![](.\image\PYTHON\image93.jpeg) 
->  
+> ![](.\image\PYTHON\image93.jpeg)
 
 ![](.\image\PYTHON\image94.jpeg)
 
 > 三、列表的常用操作
 
-1. ![](.\image\PYTHON\image95.jpeg) 
-    index方法
+1. ![](.\image\PYTHON\image95.jpeg)
+   index方法
 
 > 查询特定元素的下标，输出为正向的索引，查询不到将会报错
 > 只能查询一层列表中的值，多层嵌套要直接把前面的层数写好，比如：
 >
 > *data\[0\].index(x)*
 >
-> ![](.\image\PYTHON\image96.jpeg) 
->  
+> ![](.\image\PYTHON\image96.jpeg)
 
 ![](.\image\PYTHON\image97.jpeg)
 
 2. 修改元素
 
-> ![](.\image\PYTHON\image98.jpeg) 
->  
-
-3. ![](.\image\PYTHON\image99.jpeg) 
-    插入
+3. ![](.\image\PYTHON\image99.jpeg)
+   插入
 4. 追加元素
 
 ![](.\image\PYTHON\image100.jpeg)
 
 > 也可追加多个元素
 >
-> ![](.\image\PYTHON\image101.jpeg) 
->  
+> ![](.\image\PYTHON\image101.jpeg)
 
 5. 删除
 
@@ -641,15 +591,13 @@
 > del可以删除嵌套列表，pop不能删除嵌套列表
 > pop具有返回值，返回值为删除的元素
 >
-> ![](.\image\PYTHON\image103.jpeg) 
->  
+> ![](.\image\PYTHON\image103.jpeg)
 >
 > remove直接输入具体的元素，会自动搜索匹配对应元素，并将它删除
 
 6. 清空列表
 
-> ![](.\image\PYTHON\image104.jpeg) 
->  
+> ![](.\image\PYTHON\image104.jpeg)
 >
 > clear不需要输入参数
 
@@ -663,8 +611,7 @@
 
 > 如果是嵌套列表，则嵌套的列表只会记作一个，不会展开计数四、列表的遍历循环
 >
-> ![](.\image\PYTHON\image107.jpeg) 
->  
+> ![](.\image\PYTHON\image107.jpeg)
 >
 > 示例（用while循环）：
 
@@ -672,13 +619,11 @@
 
 > 示例（使用for循环）：
 >
-> ![](.\image\PYTHON\image109.jpeg) 
->  
+> ![](.\image\PYTHON\image109.jpeg)
 >
-> ![](.\image\PYTHON\image110.jpeg) 
->  
+> ![](.\image\PYTHON\image110.jpeg)
 
-###### 数据容器：元组（tuple）
+# 数据容器：元组（tuple）
 
 > 2024年8月4日 14:07
 
@@ -686,16 +631,13 @@
 
 > 如果强行对元素赋值修改，那么程序会报错，但是有一种特殊情况（见第五点）
 >
-> ![](.\image\PYTHON\image112.jpeg) 
->  
+> ![](.\image\PYTHON\image112.jpeg)
 >
 > 一、元组的定义
 >
-> ![](.\image\PYTHON\image113.jpeg) 
->  
+> ![](.\image\PYTHON\image113.jpeg)
 >
-> ![](.\image\PYTHON\image114.jpeg) 
->  
+> ![](.\image\PYTHON\image114.jpeg)
 >
 > 不添加逗号得到的是单元素字符串，不是单元素元组，可以使用type关键字
 > 验证
@@ -712,27 +654,22 @@
 >
 > index查找、count计数、len长度与列表（list）的用法是一致的
 >
-> ![](.\image\PYTHON\image117.jpeg) 
->  
+> ![](.\image\PYTHON\image117.jpeg)
 >
 > 四、元组的循环遍历
 
 1. while循环遍历
 
-> ![](.\image\PYTHON\image118.jpeg) 
->  
-
-2. ![](.\image\PYTHON\image119.jpeg) 
-    for循环遍历
+2. ![](.\image\PYTHON\image119.jpeg)
+   for循环遍历
 
 > 与列表的循环遍历是一样的五、特殊情况
 >
 > 若在元组内嵌套其他可修改的数据容器，那么是可以对嵌套的内容进行修改的以下以嵌套列表作为示例：
 >
-> ![](.\image\PYTHON\image120.jpeg) 
->  
+> ![](.\image\PYTHON\image120.jpeg)
 
-### 数据容器：字符串（str）
+# 数据容器：字符串（str）
 
 > 2024年8月4日 14:08
 
@@ -746,8 +683,7 @@
 
 > 常用操作
 >
-> ![](.\image\PYTHON\image124.jpeg) 
->  
+> ![](.\image\PYTHON\image124.jpeg)
 
 1. index查询索引
 
@@ -761,30 +697,25 @@
 
 > 会得到一个替换完成的字符串返回值
 
-3. ![](.\image\PYTHON\image127.jpeg) 
-    split分割字符串
+3. ![](.\image\PYTHON\image127.jpeg)
+   split分割字符串
 
-> ![](.\image\PYTHON\image128.jpeg) 
->  
+> ![](.\image\PYTHON\image128.jpeg)
 >
 > 这个方法需要一个输入值
 
-4. ![](.\image\PYTHON\image129.jpeg) 
-    strip字符串规整
+4. ![](.\image\PYTHON\image129.jpeg)
+   strip字符串规整
 
 > 这个函数默认值，默认是去除空格
 
 5. count统计字符出现次数
 
-> ![](.\image\PYTHON\image130.jpeg) 
->  
-
 6. len统计字符串长度
 
 > 返回值是长度
 >
-> ![](.\image\PYTHON\image131.jpeg) 
->  
+> ![](.\image\PYTHON\image131.jpeg)
 >
 > 空格也要纳入计算
 
@@ -798,7 +729,7 @@
 
 > 对序列进行切片操作并不会影响序列本身，而是得到一个新的序列，返回值的数据容器类型与进行切片的序列一致，用元组切片，得到的是元组，用列表切片得到是列表
 
-## 数据容器：集合(set)
+# 数据容器：集合(set)
 
 > 2024年8月4日 15:13
 
@@ -810,8 +741,7 @@
 >
 > 集合常用操作
 >
-> ![](.\image\PYTHON\image136.jpeg) 
->  
+> ![](.\image\PYTHON\image136.jpeg)
 >
 > 由于集合是没有顺序的，所以不支持索引查询元素集合与列表一样是支持修改元素的
 >
@@ -821,15 +751,13 @@
 
 > 2、remove移除元素
 >
-> ![](.\image\PYTHON\image138.jpeg) 
->  
+> ![](.\image\PYTHON\image138.jpeg)
 >
 > 3、pop取出随机元素 4、clear清空集合
 >
 > 5、difference取出两个集合的差集(**A-A∩B)**
 >
-> ![](.\image\PYTHON\image139.jpeg) 
->  
+> ![](.\image\PYTHON\image139.jpeg)
 >
 > 6、union合并集合
 
@@ -837,14 +765,13 @@
 
 > 7、len统计集合元素个数
 >
-> ![](.\image\PYTHON\image141.jpeg) 
->  
+> ![](.\image\PYTHON\image141.jpeg)
 >
 > 8、集合的循环遍历
 >
 > 集合不支持下标索引，所以不能用while循环遍历，只能用for循环遍历
 
-### 数据容器：字典(dict)
+# 数据容器：字典(dict)
 
 > 2024年8月4日 15:12
 
@@ -854,33 +781,29 @@
 
 ![](.\image\PYTHON\image144.jpeg)
 
-> ![](.\image\PYTHON\image145.jpeg) 
->  
+> ![](.\image\PYTHON\image145.jpeg)
 >
 > 字典的常用操作
 >
 > 1、新增元素和更新元素
 >
-> ![](.\image\PYTHON\image146.jpeg) 
->  
+> ![](.\image\PYTHON\image146.jpeg)
 >
 > 2、pop删除元素 3、clear清空元素
 >
-> ![](.\image\PYTHON\image147.jpeg) 
->  4、keys获取全部的key
+> ![](.\image\PYTHON\image147.jpeg)
+> 4、keys获取全部的key
 >
 > 5、通过keys和for循环遍历字典
 >
-> ![](.\image\PYTHON\image148.jpeg) 
->  
+> ![](.\image\PYTHON\image148.jpeg)
 >
 > 6、for循环遍历字典
 >
-> ![](.\image\PYTHON\image149.jpeg) 
->  
+> ![](.\image\PYTHON\image149.jpeg)
 >
-> ![](.\image\PYTHON\image150.jpeg) 
->  7、len统计字典元素数量
+> ![](.\image\PYTHON\image150.jpeg)
+> 7、len统计字典元素数量
 
 ####### 数据容器总结
 
@@ -902,7 +825,7 @@
 >
 > 分区 数据容器 的第 71 页
 
-##### 字符串大小比较
+# 字符串大小比较
 
 > 2024年8月13日 13:51
 >
@@ -910,10 +833,7 @@
 
 ![](.\image\PYTHON\image154.png)
 
-> ![](.\image\PYTHON\image155.jpeg) 
->  
-
-### 文件编码概念
+# 文件编码概念
 
 > 2024年8月3日 21:53
 
@@ -929,8 +849,7 @@
 
 > 一、文件的打开
 >
-> ![](.\image\PYTHON\image160.jpeg) 
->  
+> ![](.\image\PYTHON\image160.jpeg)
 
 ![](.\image\PYTHON\image161.jpeg)
 
@@ -943,8 +862,7 @@
 >
 > 二、读取文件的相关操作
 >
-> ![](.\image\PYTHON\image162.jpeg) 
->  
+> ![](.\image\PYTHON\image162.jpeg)
 >
 > 对同一个文本连续两次使用read读取的文本会自动衔接，比如第一次
 > read读取到了第十个字符，那么第二次read就会从第十一个字符开始
@@ -954,8 +872,7 @@
 >
 > 使用for循环读取文件
 >
-> ![](.\image\PYTHON\image163.jpeg) 
->  
+> ![](.\image\PYTHON\image163.jpeg)
 >
 > 原理：读取文件时，每一行数据都是作为一个元素，所以每一次读取的都是一行的内容
 >
@@ -963,8 +880,8 @@
 
 ![](.\image\PYTHON\image164.jpeg)
 
-> ![](.\image\PYTHON\image165.jpeg) 
->  四、with open语法（自动关闭文件）
+> ![](.\image\PYTHON\image165.jpeg)
+> 四、with open语法（自动关闭文件）
 >
 > 在冒号后面写操作语句，执行完冒号后的所有语句后，文件会自动关闭，有些像函数
 >
@@ -974,12 +891,11 @@
 >
 > 使用write方法进行文件写入
 >
-> ![](.\image\PYTHON\image166.jpeg) 
->  
+> ![](.\image\PYTHON\image166.jpeg)
 
 ![](.\image\PYTHON\image167.jpeg)
 
-###### 文件追加
+# 文件追加
 
 > 2024年8月18日 12:29
 
@@ -999,13 +915,11 @@
 
 > 一、捕获异常
 >
-> ![](.\image\PYTHON\image171.jpeg) 
->  
+> ![](.\image\PYTHON\image171.jpeg)
 >
 > 捕获异常的基本语法
 >
-> ![](.\image\PYTHON\image172.jpeg) 
->  
+> ![](.\image\PYTHON\image172.jpeg)
 >
 > 捕获指定异常
 
@@ -1013,18 +927,15 @@
 
 > 捕获多个异常
 >
-> ![](.\image\PYTHON\image174.jpeg) 
->  
+> ![](.\image\PYTHON\image174.jpeg)
 >
 > 捕获所有异常（与基本语法的效果是一样的）
 >
 > 异常的else语法
 >
-> ![](.\image\PYTHON\image175.jpeg) 
->  
+> ![](.\image\PYTHON\image175.jpeg)
 >
-> ![](.\image\PYTHON\image176.jpeg) 
->  
+> ![](.\image\PYTHON\image176.jpeg)
 >
 > 异常的finally语法
 
@@ -1032,8 +943,7 @@
 
 > 二、异常的传递
 >
-> ![](.\image\PYTHON\image178.jpeg) 
->  
+> ![](.\image\PYTHON\image178.jpeg)
 >
 > 这意味着，当我们需要检查有层级调用关系的函数异常时，只需要在最高层级（最开始调用的函数）内进行检查就能确定异常类型和位置
 >
@@ -1049,15 +959,13 @@
 >
 > 模块的导入一遍会写在代码的最开头
 >
-> ![](.\image\PYTHON\image180.jpeg) 
->  
+> ![](.\image\PYTHON\image180.jpeg)
 >
 > 查看模块文件内容的方法，按住CTRL然后点击模块名就可以打开对应模块文件
 >
 > 导入模块中特定的方法
 >
-> ![](.\image\PYTHON\image181.jpeg) 
->  
+> ![](.\image\PYTHON\image181.jpeg)
 
 ![](.\image\PYTHON\image182.jpeg)
 
@@ -1076,16 +984,14 @@
 >
 > 如果导入了不同模块的同名功能，那么调用的功能将会是最后导入的哪一个，取别名可以避免出现这样的情况
 >
-> ![](.\image\PYTHON\image184.jpeg) 
->  
+> ![](.\image\PYTHON\image184.jpeg)
 
 ![](.\image\PYTHON\image185.jpeg)
 
 > 将模块中的测试代码写在\"*if \_ \_ name \_ \_ ==
 > \"main\":*\"之后就可以实现调用模块后不会执行一遍功能函数的代码，而是只在模块单独运行时才会执行代码
 >
-> ![](.\image\PYTHON\image186.jpeg) 
->  
+> ![](.\image\PYTHON\image186.jpeg)
 >
 > 原理：\_ \_ name \_ \_ 是python中的内置变量，如果在运行模
 >
@@ -1119,28 +1025,24 @@
 
 ######## 二、导入自定义包中的模块
 
-> ![](.\image\PYTHON\image190.jpeg) 
->  
+> ![](.\image\PYTHON\image190.jpeg)
 >
 > 导入时使用**.**来表示层级关系，直接导入文件夹无法使用模块中的功能，必须至少指定到模块
 >
 > 使用from导入指定到模块
 >
-> ![](.\image\PYTHON\image191.jpeg) 
->  
+> ![](.\image\PYTHON\image191.jpeg)
 >
 > 指定到模块中的功能
 >
-> ![](.\image\PYTHON\image192.jpeg) 
->  
+> ![](.\image\PYTHON\image192.jpeg)
 >
-> ![](.\image\PYTHON\image193.jpeg) 
->  可以一次性导入多个模块或功能，只要用，（逗号）分开进行
+> ![](.\image\PYTHON\image193.jpeg)
+> 可以一次性导入多个模块或功能，只要用，（逗号）分开进行
 
 ######## 三、python包中的\_ \_ all \_ \_变量
 
-> ![](.\image\PYTHON\image194.jpeg) 
->  
+> ![](.\image\PYTHON\image194.jpeg)
 >
 > \_ \_ all \_ \_变量是写在\_ \_ init \_
 > \_.p文件中的，列表内写上文件夹下的模块名，即可针对import
@@ -1159,15 +1061,13 @@
 >
 > 右下角配置解释器，进入解释器设置
 >
-> ![](.\image\PYTHON\image198.jpeg) 
->  
+> ![](.\image\PYTHON\image198.jpeg)
 >
 > 列表显示的是该python中安装的包有那些，点击左上角的加号就可以搜索对应的包进行安装
 >
-> ![](.\image\PYTHON\image199.jpeg) 
->  
+> ![](.\image\PYTHON\image199.jpeg)
 
-### 初识方法
+# 初识方法
 
 > 2024年8月3日 21:53
 
@@ -1175,7 +1075,7 @@
 
 > 分区 类和对象 的第 91 页
 
-###### json数据格式
+# json数据格式
 
 > 2024年8月16日 14:17
 
@@ -1183,11 +1083,9 @@
 
 > 不同的编程语言都有自己的数据格式，java、c/c++、python等不同语言产生的数据格式是不同的，但是json格式的数据是通用的
 >
-> ![](.\image\PYTHON\image202.jpeg) 
->  
+> ![](.\image\PYTHON\image202.jpeg)
 >
-> ![](.\image\PYTHON\image203.jpeg) 
->  
+> ![](.\image\PYTHON\image203.jpeg)
 
 ![](.\image\PYTHON\image204.jpeg)![](.\image\PYTHON\image205.jpeg)
 
@@ -1204,8 +1102,7 @@
 >
 > 二、绘制折线图
 >
-> ![](.\image\PYTHON\image207.jpeg) 
->  
+> ![](.\image\PYTHON\image207.jpeg)
 >
 > 导入pyecharts.charts模块中的Line功能
 > 生成Line对象，然后设置x轴坐标和y轴坐标随后设置y轴坐标
@@ -1214,13 +1111,11 @@
 >
 > 三、全局配置和局部配置
 >
-> ![](.\image\PYTHON\image208.jpeg) 
->  
+> ![](.\image\PYTHON\image208.jpeg)
 >
 > 1、全局配置
 >
-> ![](.\image\PYTHON\image209.jpeg) 
->  
+> ![](.\image\PYTHON\image209.jpeg)
 
 ![](.\image\PYTHON\image210.jpeg)
 
@@ -1232,8 +1127,7 @@
 >
 > 映射视图来自pyecharts.options的VisualMapOpts具体可设置的内容可以在网站中查阅
 >
-> ![](.\image\PYTHON\image211.jpeg) 
->  
+> ![](.\image\PYTHON\image211.jpeg)
 
 # json模块对数据简单处理
 
@@ -1251,13 +1145,11 @@
 >
 > **创建数组**
 >
-> ![](.\image\PYTHON\image213.jpeg) 
->  
+> ![](.\image\PYTHON\image213.jpeg)
 >
 > **二维数组、查看数组结构**
 >
-> ![](.\image\PYTHON\image214.jpeg) 
->  
+> ![](.\image\PYTHON\image214.jpeg)
 >
 > **索引和切片**（与python基础语法中的序列切片一致）
 >
@@ -1265,8 +1157,7 @@
 >
 > 如果是二维数组，那么单一个0号元素，就是第一行所有元素的序列，a\[0\]\[0\]才是第一行第一列的单个元素元素
 >
-> ![](.\image\PYTHON\image215.jpeg) 
->  
+> ![](.\image\PYTHON\image215.jpeg)
 >
 > **基本运算**
 >
@@ -1283,78 +1174,66 @@
 >
 > reshape变换形状
 >
-> ![](.\image\PYTHON\image216.jpeg) 
->  
+> ![](.\image\PYTHON\image216.jpeg)
 >
 > 注意：新形状可容纳的数据量必须与数组的数据量相同，例如一个3x4的矩阵可以变成2x6、4x3，但是不能变成3x3、3x5这样的形状
 >
 > transpose转置矩阵
 >
-> ![](.\image\PYTHON\image217.jpeg) 
->  
+> ![](.\image\PYTHON\image217.jpeg)
 >
 > dot向量点乘、矩阵乘法
 >
-> ![](.\image\PYTHON\image218.jpeg) 
->  
+> ![](.\image\PYTHON\image218.jpeg)
 >
 > mean求平均值
 >
-> ![](.\image\PYTHON\image219.jpeg) 
->  
+> ![](.\image\PYTHON\image219.jpeg)
 >
 > 调用函数传入数组，与调用数组内部函数是一样的效果
 >
 > max求最大值 min求最小值
 >
-> ![](.\image\PYTHON\image220.jpeg) 
->  
+> ![](.\image\PYTHON\image220.jpeg)
 >
 > std标准差
 >
-> ![](.\image\PYTHON\image221.jpeg) 
->  
+> ![](.\image\PYTHON\image221.jpeg)
 >
-> ![](.\image\PYTHON\image222.jpeg) 
->  ![](.\image\PYTHON\image223.jpeg) 
->  sum求和 sort排序
+> ![](.\image\PYTHON\image222.jpeg)
+> ![](.\image\PYTHON\image223.jpeg)
+> sum求和 sort排序
 >
 > 默认是对每一行进行排序
 >
 > 如果想对每一个数字都进行排序，可以用reshape，这将会得到一个排好序的列表
 >
-> ![](.\image\PYTHON\image224.jpeg) 
->  
+> ![](.\image\PYTHON\image224.jpeg)
 >
 > 筛选（与或非）
 >
-> ![](.\image\PYTHON\image225.jpeg) 
->  
+> ![](.\image\PYTHON\image225.jpeg)
 >
 > 判断条件记得打上括号
 >
-> ![](.\image\PYTHON\image226.jpeg) 
->  
+> ![](.\image\PYTHON\image226.jpeg)
 >
 > save保存数组
 >
-> ![](.\image\PYTHON\image227.jpeg) 
->  
+> ![](.\image\PYTHON\image227.jpeg)
 >
-> ![](.\image\PYTHON\image228.jpeg) 
->  loads导入数组 random随机数使用
+> ![](.\image\PYTHON\image228.jpeg)
+> loads导入数组 random随机数使用
 >
 > linespace线性数组数据生成
 >
 > 如图是生成一个0到10，均匀分布为的10个数据
 >
-> ![](.\image\PYTHON\image229.jpeg) 
->  
+> ![](.\image\PYTHON\image229.jpeg)
 >
 > x内容为
 >
-> ![](.\image\PYTHON\image230.jpeg) 
->  
+> ![](.\image\PYTHON\image230.jpeg)
 >
 > Pandas
 >
@@ -1362,11 +1241,10 @@
 >
 > 一、excel文档阅读
 >
-> ![](.\image\PYTHON\image231.jpeg) 
->  
+> ![](.\image\PYTHON\image231.jpeg)
 >
-> ![](.\image\PYTHON\image232.jpeg) 
->  使用head函数，可以查看excel前几行的内容，默认是前五行
+> ![](.\image\PYTHON\image232.jpeg)
+> 使用head函数，可以查看excel前几行的内容，默认是前五行
 
 ![](.\image\PYTHON\image233.jpeg)
 
@@ -1376,26 +1254,23 @@
 >
 > 将excel文件保存为csv文件
 >
-> ![](.\image\PYTHON\image236.jpeg) 
->  
+> ![](.\image\PYTHON\image236.jpeg)
 >
 > csv文件读取
 >
-> ![](.\image\PYTHON\image237.jpeg) 
->  
+> ![](.\image\PYTHON\image237.jpeg)
 >
-> ![](.\image\PYTHON\image238.jpeg) 
->  csv文件保存为excel文件读取tab键分隔的文本
+> ![](.\image\PYTHON\image238.jpeg)
+> csv文件保存为excel文件读取tab键分隔的文本
 >
-> ![](.\image\PYTHON\image239.jpeg) 
->  
+> ![](.\image\PYTHON\image239.jpeg)
 >
 > 略过前几行读取文件
 
 ![](.\image\PYTHON\image240.jpeg)
 
-> ![](.\image\PYTHON\image241.jpeg) 
->  json文本读取
+> ![](.\image\PYTHON\image241.jpeg)
+> json文本读取
 >
 > 二、dateframe数据类型
 >
@@ -1415,8 +1290,7 @@
 
 ![](.\image\PYTHON\image247.jpeg)
 
-> ![](.\image\PYTHON\image248.png) 
->  
+> ![](.\image\PYTHON\image248.png)
 >
 > idmax、idmin最大、最小值的下标索引
 
@@ -1431,20 +1305,17 @@
 
 > 四、info查看基础信息
 >
-> ![](.\image\PYTHON\image253.jpeg) 
->  
+> ![](.\image\PYTHON\image253.jpeg)
 >
 > 五、dropna缺失值处理
 >
-> ![](.\image\PYTHON\image254.jpeg) 
->  
+> ![](.\image\PYTHON\image254.jpeg)
 >
 > dropna会删除有不完整数据的那一行
 >
 > 六、数据类型转换
 >
-> ![](.\image\PYTHON\image255.jpeg) 
->  
+> ![](.\image\PYTHON\image255.jpeg)
 >
 > 使用astype转化成需要的数据类型
 >
@@ -1456,34 +1327,29 @@
 >
 > 例如
 >
-> ![](.\image\PYTHON\image256.jpeg) 
->  
+> ![](.\image\PYTHON\image256.jpeg)
 >
 > 单个数据索引
 >
 > 类似于二维数组，第一个中括号写列的key值，第二个中括号写行上行数，就可以精确定位到期望的一个数据
 >
-> ![](.\image\PYTHON\image257.jpeg) 
->  
+> ![](.\image\PYTHON\image257.jpeg)
 >
 > 八、筛选功能
 >
 > 类似于numpy中数组的筛选，如下图的代码就是筛选出所有等于1的值，用df_1储存
 >
-> ![](.\image\PYTHON\image258.jpeg) 
->  
+> ![](.\image\PYTHON\image258.jpeg)
 
 # Matplotlib
 
 > 2024年8月24日 18:44
 >
-> ![](.\image\PYTHON\image259.jpeg) 
->  以matplotlib中最常用的pyplot为例
+> ![](.\image\PYTHON\image259.jpeg)
+> 以matplotlib中最常用的pyplot为例
 >
 > plot绘图
 >
-> ![](.\image\PYTHON\image260.png) 
->  
+> ![](.\image\PYTHON\image260.png)
 >
-> ![](.\image\PYTHON\image261.png) 
->  
+> ![](.\image\PYTHON\image261.png)
